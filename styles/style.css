@@ -1,0 +1,98 @@
+/* 1. RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. CORPO DA PÁGINA */
+body {
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3. CONTAINER */
+.estrutura {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 4. FORMULÁRIO */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* espaçamento entre grupos de campos e botão */
+}
+
+/* GRUPO DE CAMPOS (label + input juntos) */
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* 5. INPUTS */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* 6. BOTÃO */
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 7. LINKS */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
