@@ -10,13 +10,12 @@
     <main class="estrutura">
         <h1>Nova Conta</h1>
 
-        <form id="form-cadastro" method="post">
+        <form id="form-cadastro">
             <div class="form-group">
                 <label for="novo-usuario">Nome de usuário</label>
                 <input
                     type="text"
                     id="novo-usuario"
-                    name="username"
                     placeholder="Escolha um nome de usuário"
                     autocomplete="username"
                     required
@@ -28,7 +27,6 @@
                 <input
                     type="email"
                     id="novo-email"
-                    name="email"
                     placeholder="Seu melhor e-mail"
                     autocomplete="email"
                     required
@@ -40,7 +38,6 @@
                 <input
                     type="password"
                     id="nova-senha"
-                    name="password"
                     placeholder="Crie uma senha"
                     autocomplete="new-password"
                     required
@@ -53,6 +50,9 @@
         <a href="index.html">Já tenho conta (Voltar)</a>
     </main>
 
+    <!-- SQLite em JS (sql.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+    <!-- Seu script -->
     <script src="script.js"></script>
 </body>
 </html>

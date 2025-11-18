@@ -10,13 +10,12 @@
     <main class="estrutura">
         <h1>Login</h1>
 
-        <form id="form-login" method="post">
+        <form id="form-login">
             <div class="form-group">
                 <label for="campo-login">Usuário ou E-mail</label>
                 <input
                     type="text"
                     id="campo-login"
-                    name="login"
                     placeholder="Usuário ou E-mail"
                     autocomplete="username"
                     required
@@ -28,7 +27,6 @@
                 <input
                     type="password"
                     id="senha"
-                    name="senha"
                     placeholder="Senha"
                     autocomplete="current-password"
                     required
@@ -41,6 +39,9 @@
         <a href="cadastro.html">Não tem conta? Criar agora</a>
     </main>
 
+    <!-- SQLite em JS (sql.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+    <!-- Seu script -->
     <script src="script.js"></script>
 </body>
 </html>
